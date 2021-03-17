@@ -1,4 +1,4 @@
-
+/*
 // Example 1
 #include "mbed.h"
 
@@ -23,8 +23,8 @@ int main()
       }
 
 }
+*/
 
-/*
 // Example 2
 #include "mbed.h"
 
@@ -40,11 +40,11 @@ int main()
 
 {
 
-      int x=0;
+      int x=30;
 
-      lcd.printf("Hello World!\n");
+      lcd.printf("108061107\n");
 
-      while(true)
+      while(x >= 0)
 
       {
 
@@ -56,12 +56,12 @@ int main()
 
             ThisThread::sleep_for(1s);
 
-            x++;
+            x--;
 
       }
 
 }
-*/
+
 
 /*
 // Example 3
